@@ -1,0 +1,111 @@
+    body {
+
+        background-image: linear-gradient(to left, #6f82e4, #1f2ebe);
+    }
+
+    main {
+        border-radius: px;
+        background-color: rgba(255, 255, 255, 0.993);
+        position: absolute;
+        padding: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        min-width: 300px;
+        max-width: 400px;
+    }
+
+    form {
+        margin: 20;
+        text-align: center;
+    }
+
+    #name {
+        margin: 20px;
+        text-align: center;
+    }
+
+    #name h2 {
+        margin: 0px 20px 0px;
+    }
+
+    .nick-name {
+        font-size: 1.2em;
+
+    }
+
+    .bio {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+
+    figure {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    figure img {
+        width: 40%;
+        border-radius: 50%;
+        margin-top: 10px;
+
+    }
+
+    button {
+        width: 90%;
+        padding: 08px;
+        margin: 5px;
+        border: none;
+        border-radius: 15px;
+        outline: none;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        background-image: linear-gradient(to left, #6f82e4, #1f2ebe);
+        color: white;
+        font-size: 1.1em;
+        text-transform: uppercase;
+    }
+
+    button:hover {
+        box-shadow: 2px 2px 5px black;
+    }
+    footer{
+        text-align: center;
+    }
+    footer a{
+        color: black;
+        text-decoration: none;
+    }
+    footer a:hover{
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 395px){
+        
+        main{
+            background-image: linear-gradient(to left, #6f82e4, #1f2ebe);
+            border-radius: none;
+        }
+        #name {
+    color: white;
+    }
+    button{
+        background-image: none;
+        background-color: white;
+        color: black;
+    }
+    footer{
+        color: white;
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+
+    }
